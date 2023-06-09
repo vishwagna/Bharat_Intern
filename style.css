@@ -1,0 +1,67 @@
+body {
+    background: -webkit-gradient(linear, right top,right bottom, from(#5170ff), to(#ff66c4)) fixed;
+  }
+
+.btn
+{
+   
+    font-size: 20px;
+    color:black;
+    padding: 2px;
+}
+.btn:hover{
+    background-color:white;
+    opacity:0.85;
+}
+#drop_file_zone
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:70px ;
+    text-align: center;
+    background-color: #eee;
+    border:#999 5px dashed;
+    width:390px;
+    height:300px;
+    padding:8px;
+    font-size: 18px;
+}
+#drag_upload_file
+{
+    width:50%;
+    margin:0 auto;
+}
+#drag_upload_file p{
+    text-align: center;
+}
+#drag_upload_file #selectfile
+{
+    display:none;
+}
+.fa
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+}
+p{
+    font-size: 30px;
+}
+.txt-area
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:70px ;
+    text-align: center;
+    background-color: #eee;
+    border:#999 5px solid;
+    width:700px;
+    height:300px;
+    padding:8px;
+    font-size: 18px;
+}
+.top
+{
+    font-size: 20px;
+    font-weight: 10px;
+}
