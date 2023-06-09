@@ -8,7 +8,7 @@ $conn = new mysqli($servername, $username, $password,$dbname);
  session_start();
 $name=$_SESSION['username'];
 
-$sql="SELECT * from user_details where name='$name'";
+$sql="SELECT * from user_details where email='$name'";
 $result=mysqli_query($conn,$sql);
 $row=mysqli_fetch_assoc($result);
 $id=$row['user_id'];
