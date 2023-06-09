@@ -35,14 +35,22 @@
 
 </div>
 <div class="txt-area">
-    <form action="ajax.php" method="POST">
+    <form action="#" method="POST">
         <p> Write some text to upload </p>
         <textarea type="textarea" rows="10" cols="70" name="text"></textarea>
         <input class="btn" type="submit" name="submit" value="Submit"/>
     </form>
 
 </div>
-<div id="img-content"></div>
+<?php
+if(isset($_POST['submit']))
+{
+    echo '<h1>'.$_POST['text'].'</h1>';
+}
+?>
+<div class="img-content"></div>
+
+
 <script src="custom.js"></script>
 
 </body>
