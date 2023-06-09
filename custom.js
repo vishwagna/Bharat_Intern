@@ -1,5 +1,5 @@
 var fileobj;
-
+const  oOutput=document.querySelector('.img-content');
 function upload_file(e) {
     
     e.preventDefault();
@@ -26,7 +26,7 @@ function ajax_file_upload(file_obj) {
         var xhttp= new XMLHttpRequest();
         xhttp.open("POST","ajax.php",true);
         xhttp.onload=function(event) {
-            oOutput=document.querySelector('.img-content');
+           
             if(xhttp.status==200) {
                 oOutput.innerHTML ="<img src='"+ this.responseText+"'/>";
             }
