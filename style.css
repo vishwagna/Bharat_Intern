@@ -65,3 +65,12 @@ p{
     font-size: 20px;
     font-weight: 10px;
 }
+.text
+{
+    min-height: 100px;
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 10px;
+}
