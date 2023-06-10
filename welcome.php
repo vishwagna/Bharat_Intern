@@ -45,7 +45,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-    echo '<h1>'.$_POST['text'].'</h1>';
+   echo '<div class="text"><h1>'.$_POST['text'].'</h1></div>';
 }
 ?>
 <div class="img-content"></div>
